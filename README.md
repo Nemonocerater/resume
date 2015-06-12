@@ -4,7 +4,8 @@ var JoshuaScottHarris = {
   emailAddress : “joshua40harris@gmail.com”,
   website : “www.JoshuaSHarris.com”,
   
-  Experience : [{
+  Experience : [
+    {
       company : “Salesforce Pardot”,
       startDate : new Date(2014, 05), // June 2014
       endDate : null, // current
@@ -21,7 +22,8 @@ var JoshuaScottHarris = {
       startDate : new Date(2013, 07), // August 2013
       endDate : new Date(2013, 10), // November 2013
       role : “As a co-founder in this venture I was responsible for managing the meetings, helping set the company's goals, marketing and selling our product, and building the front end side of the application.”
-  }],
+    }
+  ],
   
   Education : {
     school : “Georgia Institute of Technology”,
