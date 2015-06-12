@@ -1,4 +1,4 @@
-```
+```javascript
 var JoshuaScottHarris = {
   phoneNumber : “(678) 920–8233”,
   emailAddress : “joshua40harris@gmail.com”,
