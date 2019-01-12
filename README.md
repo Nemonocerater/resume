@@ -1,7 +1,6 @@
 ```javascript
 var JoshuaScottHarris = {
   phoneNumber : "(678) 920-8233", emailAddress : "joshua40harris@gmail.com",
-
   Experience : [
     {
       company : "Fullstory",
@@ -26,6 +25,7 @@ var JoshuaScottHarris = {
           personalized sales experience.",
         "Lead the design for the licensing and enablement of our product as we \
           moved inside of Salesforce Sales Cloud."
+      ]
     },
   ],
   Education : {
