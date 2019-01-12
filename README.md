@@ -1,48 +1,39 @@
 ```javascript
 var JoshuaScottHarris = {
-  phoneNumber : "(678) 920-8233",
-  emailAddress : "joshua40harris@gmail.com",
-  website : "www.JoshuaSHarris.com",
-  
+  phoneNumber : "(678) 920-8233", emailAddress : "joshua40harris@gmail.com",
+
   Experience : [
     {
+      company : "Fullstory",
+      startDate : new Date(2018, 04), // May 2018
+      endDate : null, // current
+      work : [
+        "Designed a system for maintaining a daily history of the quota our \
+          customers are using to allow us to sell quota on different billing cycles \
+          (yearly,monthly, etc.)",
+        "Created an easily modifiable system for emailing our customers when \
+          account status events occur",
+        "Enhanced our Level 0 flow to help trial users better understand our \
+          product",
+      ]
+    },{
       company : "Salesforce Pardot",
       startDate : new Date(2014, 05), // June 2014
-      endDate : null, // current
-      role : "Helped build our company's second product which allows sales users \
-      to send tracked emails and then monitor when one of their leads visits a \
-      web page, opens or clicks a link in an email, attends a webinar, or any \
-      other activities that we monitor. The product is predicted to be our \
-      largest revenue builder for 2015."
-    },{
-      company : "Brainsplosion Games",
-      startDate : new Date(2014, 00), // January 2014
-      endDate : null, // current
-      role : "Building a mobile game where a spaceship must navigate planets with \
-      positive and negative gravity to spread life throughout the universe with \
-      the Unity platform. I'm building the back end with node.js and redis in the \
-      Google Cloud."
-    },{
-      company : "Unispon",
-      startDate : new Date(2013, 07), // August 2013
-      endDate : new Date(2013, 10), // November 2013
-      role : "As a co-founder in this venture I was responsible for managing the \
-      meetings, helping set the company's goals, marketing and selling our \
-      product, and building the front end side of the application."
-    }
+      endDate : new Date(2014, 04), // May 2018
+      work : [
+        "Developed a new product that allowed Sales Reps to monitor email opens and \
+          clicks, web page visits, and form submissions in order to deliver a more \
+          personalized sales experience.",
+        "Lead the design for the licensing and enablement of our product as we \
+          moved inside of Salesforce Sales Cloud."
+    },
   ],
-  
   Education : {
-    school : "Georgia Institute of Technology",
-    graduationDate : new Date(2014, 04), // May 2014
-    gpa : 3.25
+    school : "Georgia Institute of Technology", gpa : 3.25,
+    graduationDate : new Date(2014, 04) // May 2014
   },
-  
-  ProgrammingSkills : {
-    languages : ["JavaScript(Node.js)", "C#", "C++", "C", "Python", "PHP", "Java"],
-    environments : ["Vim/Terminal", "Unity", "PHP Storm"],
-    systems : ["Linux", "Mac", "Windows", "Vagrant", "Docker"],
-    databases: ["MySQL", "Mongo", "Redis", "Cassandra"]
-  }
+  ProgrammingSkills : [
+    "JavaScript(Node.js)", "PHP", "GoLang", "C#", "MySQL", "Mongo", "Redis"
+  ],
 }
 ```
